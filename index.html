@@ -15,10 +15,11 @@
         <h1>Dulces típicos mexicanos.</h1>
         <p style="font-weight: bold;">Aquí encontrarás información acerca de los dulces más comunes en <b>México.</b></p>
         <blockquote>
-            <cite>"Los dulces mexicanos son la expresión más pura de nuestras emociones; llevan en su sabor la esencia de nuestras tradiciones y el alma de nuestro pueblo."</cite> -Laura Esquivel
+            <cite class="frase">"Los dulces mexicanos son la expresión más pura de nuestras emociones; llevan en su sabor la esencia de nuestras tradiciones y el alma de nuestro pueblo."</cite>
+            <pre>    -Laura Esquivel</pre>
         </blockquote>
         <p>Haz <i>clic</i> en los enlaces para conocer más acerca de los dulces.</p>
-        <ol>
+        <ol class="listas-ol">
             <p hidden>Páginas.</p>
             <li><a href="cajeta.html">Cajetas</a></li>
             <li><a href="cocada.html">Cocadas</a></li>
@@ -55,7 +56,7 @@
             <p>Los dulces mexicanos no solo son un placer culinario, sino que también representan la historia y las tradiciones del país. Son un vínculo con el pasado y un testimonio de la fusión cultural que define a México. Desde las recetas transmitidas de generación en generación hasta las innovaciones modernas, los dulces mexicanos continúan siendo una parte esencial de la identidad mexicana.</p>
         </section>
         <hr>
-        <aside id="datosCuriosos">
+        <aside class="datosCuriosos">
             <h2>4️⃣Datos curiosos</h2>
             <ul>
                 <li>En algunos dulces tradicionales se usan conservantes como el ácido benzoico (C<sup>6</sup>H<sup>5</sup>COOH), el cual actúa como un agente antimicrobiano.</li>
@@ -66,7 +67,7 @@
         <aside id="ejemplosDulces">
             <h2>5️⃣Algunos&nbsp;ejemplos.</h2>
             <p>Algunos de los dulces mexicanos más comunes son los siguientes:</p>
-            <table border="1">
+            <table border="1" class="tablas">
                 <thead>
                     <th>Nombres</th>
                     <th>Ingredientes principales</th>
@@ -139,7 +140,7 @@
         <section>
             <h2>*️⃣Queremos saber más de ti.</h2>
             <p><mark>Rellena nuestro fomulario para recibir las últimas notificaciones de nuestra página web. &hearts;</mark></p>
-            <form>
+            <form class="formulario">
                 <fieldset id="formulario-">
                     <label for="nombres">Nombres:</label>
                     <input type="text" name="nombres" id="nombres" tabindex="1" required>
@@ -165,16 +166,14 @@
         <br>
     </main>
     <footer>
-        <div style="display: flex;">
-            <div style="flex: 1; background-color: rgb(255, 235, 122);"> Información de contacto:</div>
-        </div>
-        <address>
+        <div style="flex: 1; background-color: rgb(255, 235, 122);" class="div-footer"> Información de contacto:</div>
+        <address class="address">
             <strong><span style="color: rgb(3, 3, 104);">Universidad Autónoma de Nuevo León</span>&#128047;</strong><br>
             Pedro de Alba S/N, Niños Héroes, Ciudad Universitaria, 66455 San Nicolás de los Garza, N.L. México.<br>
             <a href="mailto:angel.diazhrn@uanl.edu.mx">angel.diazhrn@uanl.edu.mx</a><br>
             Teléfono de la <abbr title="Universidad Autónoma de Nuevo León">UANL </abbr>+52 8183294000
-            <p>Página creada el<time datetime="2024-08-25">25 de agosto de 2024</time>.</p>
-            <p><small>&copy; 2024 Angel Díaz <abbr title="Licenciatura en Tecnologías de Información">LTI</abbr>. Todos los derechos reservados.</small></p>  
+            <p id="p-address">Página creada el <time datetime="2024-08-25">25 de agosto de 2024</time>.</p>
+            <p id="p-address2"><small>&copy; 2024 Angel Díaz <abbr title="Licenciatura en Tecnologías de Información">LTI</abbr>. Todos los derechos reservados.</small></p>
         </address>
     </footer>
 </body>
