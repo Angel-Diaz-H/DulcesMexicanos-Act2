@@ -3,6 +3,11 @@ p {
     font-size: 12px;
 }
 
+#negrita {
+    font-family: poppins-black;
+    font-size: 13px;
+}
+
 h1 {
     font-family: poppins-black;
     font-size: 30px;
@@ -13,7 +18,7 @@ h2 {
     font-family: poppins-black;
     font-size: 20px;
     color: rgb(0, 13, 79);
-    background-color: rgb(216, 226, 255);
+    background-color: rgb(210, 248, 211);
 }
 
 h3 {
@@ -38,7 +43,12 @@ pre {
     font-size: 12px;
 }
 
-.listas-ol {
+ol {
+    font-family: poppins-regular;
+    font-size: 12px;
+}
+
+ul {
     font-family: poppins-regular;
     font-size: 12px;
 }
